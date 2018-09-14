@@ -118,14 +118,14 @@ body > .h_1 {
 
 
 body > .content > .accordion > li	{
-	background: url( '/img/accordion_closed.svg' ) no-repeat; 
+	background: url( '/lennart/img/accordion_closed.svg' ) no-repeat; 
 	background-size: 18px 18px;
 	padding: 0 20px;
 	
 }
 
 body > .content > .accordion > li.open{
-	background: url( '/img/accordion_open.svg' ) no-repeat; 
+	background: url( '/lennart/img/accordion_open.svg' ) no-repeat; 
 	background-size: 18px 18px;
 	padding: 0 20px;
 }

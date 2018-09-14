@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: black;
+	background-color: white;
+	/*background: url(img/background.jpg) no-repeat;
+	background-size: cover;*/
+}
+
+/* header */
+body > header {
+	text-align: center;
+	background-color: white;
+}
+
+/* mainnavi */
+body > .mainnavi-wrapper {
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	background-color: white;
+	
+}
+
+body > .mainnavi-wrapper > .mainnavi {
+	overflow: auto;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 10px 0;
+	list-style: none;
+	text-align: center;
+}
+
+
+body > .mainnavi-wrapper > .mainnavi > li {
+	display:inline-block;
+	margin-right: 20px;
+}
+body > .mainnavi-wrapper > .mainnavi > li:last-child {
+	margin-right: 0;	
+}
+body > .mainnavi-wrapper > .mainnavi > li > a {
+	color: green;
+	text-decoration: none;
+	opacity: 0.6;
+}
+body > .mainnavi-wrapper > .mainnavi > li > a:hover {
+	opacity: 1;
+}
+
+/* content */
+body > .content {
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: white;
+	font-size: 14px;
+	line-height: 1.5em;
+	font-family: 'Quicksand', sans-serif;
+	list-style: none;
+}
+body > .headline{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px 0;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+
+	
+}
+body > header > .warning{
+	color: red;
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 20px 0;
+}
+body > .content > .accordion {
+	list-style: none;
+	
+}
+body > .content > .accordion > li {
+	color: #005707;
+}
+body > .content > .accordion > li.open {
+	color: black;
+}
+body > .content > .accordion > li li{
+	list-style: none;
+}
+body > table, th, td {
+    padding: 15px;
+}
+footer {
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;
+}
+
+footer > .footer_height{
+	height: 43px;
+}
+
+body > .h_1 {
+	padding-top: 10px;
+	font-size: 26px;
+	color: #005707;
+	margin:  0 auto;
+	max-width: 1160px; 
+	text-align: left;
+	font-family: 'Quicksand', sans-serif;
+	text-decoration: underline;
+}
+
+
+
+body > .content > .accordion > li	{
+	background: url( '/lennart/img/accordion_closed.svg' ) no-repeat; 
+	background-size: 18px 18px;
+	padding: 0 20px;
+	
+}
+
+body > .content > .accordion > li.open{
+	background: url( '/lennart/img/accordion_open.svg' ) no-repeat; 
+	background-size: 18px 18px;
+	padding: 0 20px;
+}
+	
+.lesserheadline{
+	color: #005707;
+	font-size: 16px;
+	text-decoration: underline;
+}
+h3{
+	line-height: 1.5em;
+}

@@ -118,14 +118,14 @@ body > .h_1 {
 
 
 body > .content > .accordion > li	{
-	background: url( '/img/accordion_closed.svg' ) no-repeat; 
+	background: url( '/lennart/img/accordion_closed.svg' ) no-repeat; 
 	background-size: 18px 18px;
 	padding: 0 20px;
 	
 }
 
 body > .content > .accordion > li.open{
-	background: url( '/img/accordion_open.svg' ) no-repeat; 
+	background: url( '/lennart/img/accordion_open.svg' ) no-repeat; 
 	background-size: 18px 18px;
 	padding: 0 20px;
 }
@@ -137,4 +137,18 @@ body > .content > .accordion > li.open{
 }
 h3{
 	line-height: 1.5em;
+}
+
+body > footer > .footer_wrapper{
+	max-width: 1200px;
+	text-align: center;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.footer_content{ 
+	padding-top: 13px;
+	padding-bottom: 12px;
+	font-family: 'Quicksand', sans-serif;
+	color: #005707;
 }
